@@ -1,0 +1,23 @@
+.textblue {
+    font-weight: 900;
+
+    color: #2c374f;
+    
+}
+
+.buttons{
+    background-color: none;
+    color: white;
+    border: none;
+}
+
+.buttons:hover {
+    background-color: none;
+    color: #fdf900;
+    border-bottom: solid 3px #fdf900;
+  }
+  .card{
+      background-color: red;
+      height: 200px;
+      
+  }
