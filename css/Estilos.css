@@ -16,6 +16,14 @@
     color: #fdf900;
     border-bottom: solid 3px #fdf900;
   }
+  .buttons2:hover {
+    background-color: none;
+    color: white;
+    
+
+  }
+
+
   .buttons2{
       background-color:#2c374f ;
       color: white;
@@ -34,5 +42,5 @@
   .deg{
     background: linear-gradient(0deg, #2c374f 77%, #ffffff 100%);
 
-    
+
   }
