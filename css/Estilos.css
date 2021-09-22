@@ -8,7 +8,7 @@
 .buttons{
     background-color: none;
     color: white;
-    border: none;
+    border: solid 3px rgba(0, 0, 0, 0);
 }
 
 .buttons:hover {
@@ -44,8 +44,52 @@
 
 
   }
-  @media screen and (max-width: 720px) {
-    .botonesnav {
+  .botonnav{
+    border: none;
+  }
+  .cuadro{
+    background: white; 
+     width:315px;
+
+  }
+
+
+
+ 
+  #btnc:checked~ .botonesnav{
       background: red;
+  }
+  @media only screen and (max-width: 960px) {
+    .botonesnav {
+      background: #ffffff;
+      
     }
+    .buttons{
+      background-color: none;
+      color: #2c374f;
+      border: solid 3px rgba(0, 0, 0, 0);
+      text-align: start;
+      font-size: 15px;
+      font-weight: 900;
+      
+  }
+  .buttons:hover {
+    background-color: #aaaaaa;
+    color: #ffffff;
+    border-bottom: none;
+    
+  }
+  .cuadro{
+    background: white; 
+     width:250px;
+
+  }
+  }
+  @media only screen and (max-width: 540px){
+    .cuadro{
+      background: white; 
+       width:200px;
+  
+    }
+
   }
