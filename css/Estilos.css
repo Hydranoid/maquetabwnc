@@ -30,11 +30,7 @@
       font-weight: 900;
       font-size:13px;
   }
-  .card{
-      background-color: red;
-      height: 200px;
 
-  }
   .littletxt{
       font-size: small;
       
@@ -42,6 +38,12 @@
   .deg{
     background: linear-gradient(0deg, #2c374f 77%, #ffffff 100%);
 
+
+  }
+  .backimg{
+    background-image: url('/img/Background.png'); background-position: center;
+    background-size:cover;
+    background-position:inherit;
 
   }
   .botonnav{
