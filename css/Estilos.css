@@ -52,6 +52,17 @@
      width:315px;
 
   }
+  .imagenback{
+    /*
+            background-image: url('https://www.wallpapertip.com/wmimgs/58-583736_navy-blue-backgrounds-dark-blue-background-plain.jpg'); background-position: center;
+            background-size:cover;
+            background-position:inherit;
+    */
+    background: #2c374f;        
+
+  }
+  
+
 
 
 
