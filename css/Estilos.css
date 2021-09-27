@@ -22,6 +22,17 @@
     
 
   }
+  .astyle{
+    font-style: none;
+    color:white;
+    text-decoration: none;
+  }
+  .astyle:hover{
+    font-style: none;
+    color:white;
+    text-decoration: none;
+
+  }
 
 
   .buttons2{
@@ -95,6 +106,7 @@
   .cuadro{
     background: white; 
      width:250px;
+
 
   }
   }
