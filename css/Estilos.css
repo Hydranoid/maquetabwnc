@@ -22,6 +22,17 @@
     
 
   }
+  .astyle{
+    font-style: none;
+    color:white;
+    text-decoration: none;
+  }
+  .astyle:hover{
+    font-style: none;
+    color:white;
+    text-decoration: none;
+
+  }
 
 
   .buttons2{
@@ -30,11 +41,7 @@
       font-weight: 900;
       font-size:13px;
   }
-  .card{
-      background-color: red;
-      height: 200px;
 
-  }
   .littletxt{
       font-size: small;
       
@@ -42,6 +49,12 @@
   .deg{
     background: linear-gradient(0deg, #2c374f 77%, #ffffff 100%);
 
+
+  }
+  .backimg{
+    background-image: url('/img/Background.png'); background-position: center;
+    background-size:cover;
+    background-position:inherit;
 
   }
   .botonnav{
@@ -52,6 +65,17 @@
      width:315px;
 
   }
+  .imagenback{
+    /*
+            background-image: url('https://www.wallpapertip.com/wmimgs/58-583736_navy-blue-backgrounds-dark-blue-background-plain.jpg'); background-position: center;
+            background-size:cover;
+            background-position:inherit;
+    */
+    background: #2c374f;        
+
+  }
+  
+
 
 
 
@@ -82,6 +106,7 @@
   .cuadro{
     background: white; 
      width:250px;
+
 
   }
   }
